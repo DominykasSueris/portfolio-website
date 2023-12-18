@@ -1,3 +1,7 @@
 #!/bin/sh
 
-docker buildx build --platform linux/arm -t dominykassueris/portfolio-website . --push
+git pull && docker build -t portfolio .
+
+docker kill portfolio
+
+docker run -p 9080:3000 -d --name portfolio portfolio
