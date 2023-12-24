@@ -6,7 +6,7 @@ const Skills = () => {
       <Navbar />
       <div className="flex flex-col items-center justify-center h-dvh">
         <svg
-          className="h-10 w-10 m-1"
+          className="h-10 w-10 lg:h-custom lg:w-custom m-1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 384 512"
         >
@@ -16,7 +16,7 @@ const Skills = () => {
           />
         </svg>
         <svg
-          className="h-10 w-10 m-1"
+          className="h-10 w-10 lg:h-custom lg:w-custom m-1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 384 512"
         >
@@ -26,7 +26,7 @@ const Skills = () => {
           />
         </svg>
         <svg
-          className="h-10 w-10 m-1"
+          className="h-10 w-10 lg:h-custom lg:w-custom m-1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
         >
@@ -36,7 +36,7 @@ const Skills = () => {
           />
         </svg>
         <svg
-          className="h-10 w-10 m-1"
+          className="h-10 w-10 lg:h-custom lg:w-custom m-1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"
         >
@@ -46,7 +46,7 @@ const Skills = () => {
           />
         </svg>
         <svg
-          className="h-10 w-10 m-1"
+          className="h-10 w-10 lg:h-custom lg:w-custom m-1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           strokeWidth="2"
@@ -60,7 +60,7 @@ const Skills = () => {
           <path d="M15 12v-3" />
         </svg>
         <svg
-          className="h-10 w-10 m-1"
+          className="h-10 w-10 lg:h-custom lg:w-custom m-1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           strokeWidth="2"
@@ -76,7 +76,7 @@ const Skills = () => {
           <path d="M21 19v-14a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2z" />
         </svg>
         <svg
-          className="h-10 w-10 text-black m-1"
+          className="h-10 w-10 lg:h-custom lg:w-custom m-1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 640 512"
         >
