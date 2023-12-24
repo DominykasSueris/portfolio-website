@@ -4,8 +4,8 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-[#e8e9f7] text-xl h-screen overflow-hidden">
-        <div className="h-screen flex flex-col items-center justify-center mx-[33%]">
+      <div className="bg-[#e8e9f7] text-xl overflow-hidden">
+        <div className="h-dvh flex flex-col items-center justify-center mx-[33%]">
           <h1 className="text-6xl text-green-500 flex justify-start w-full">
             I am Dom,
           </h1>
