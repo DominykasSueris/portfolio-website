@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-row h-screen">
+      <div className="flex flex-row">
         <div className="flex-1">
           <Image
             src="/images/minion.webp"
