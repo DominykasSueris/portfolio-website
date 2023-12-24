@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-row">
+      <div className="flex flex-row h-dvh">
         <div className="flex-1">
           <Image
             src="/images/minion.webp"
@@ -23,7 +23,7 @@ const Home = () => {
             <h1 className="my-3 sm:text-lg lg:text-3xl xl:text-6xl font-bold">
               I AM WEB DEVELOPER
             </h1>
-            <p className="text-sm lg:text-xl xl:text-2xl mt-6">
+            <p className="text-xs sm:text-lg lg:text-xl xl:text-2xl mt-6">
               Self-taught React Developer: I have taken the initiative to learn
               React and its related technologies independently. Through my
               self-study, I have gained a strong understanding of React
