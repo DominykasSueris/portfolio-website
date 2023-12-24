@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <Navbar />
       <div>
-        <div className="flex justify-center items-center m-[20%]">
+        <div className="flex justify-center items-center h-dvh">
           <ul className="list">
             <li>Name: Dominykas Sueris</li>
             <li>Address: Edgware, London</li>
