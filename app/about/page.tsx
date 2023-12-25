@@ -18,7 +18,7 @@ const About = () => {
             not hesitate to reach out.
           </p>
           <div className="flex justify-center mt-4">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+            <button className="bg-blue-500 text-xs text-white px-4 py-2 rounded-md hover:bg-blue-600">
               Download CV
             </button>
           </div>
