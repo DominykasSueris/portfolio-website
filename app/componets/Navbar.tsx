@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between lg:mx-6">
         <div className="flex">
           <a
-            className="mx-2 lg:mx-3"
+            className="mx-1 md:mx-2 lg:mx-3"
             href="https://www.linkedin.com/in/dominykas-sueris-06806420a/"
           >
             <svg
@@ -23,7 +23,10 @@ const Navbar = () => {
               <circle cx="4" cy="4" r="2" />
             </svg>
           </a>
-          <a className="mx-2 lg:mx-3" href="https://github.com/DominykasSueris">
+          <a
+            className="mx-1 md:mx-2 lg:mx-3"
+            href="https://github.com/DominykasSueris"
+          >
             <svg
               className="items-center h-6 lg:h-8 w-6 lg:w-8 text-black"
               viewBox="0 0 24 24"
