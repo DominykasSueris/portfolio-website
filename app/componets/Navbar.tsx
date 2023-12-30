@@ -57,7 +57,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="mx-2 lg:mx-3 text-base lg:text-2xl text-xs">
-            <Link className="nav-link" aria-current="page" href="/projects">
+            <Link className="nav-link" aria-current="page" href="/">
               Projects
             </Link>
           </li>
