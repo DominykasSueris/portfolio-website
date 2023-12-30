@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 import Navbar from "./componets/Navbar";
 
 const Home = () => {
@@ -6,7 +8,7 @@ const Home = () => {
     <>
       <Navbar />
       <div className="flex flex-row h-dvh">
-        <div className="flex-1">
+        <div className="flex-1 flex items-center">
           <Image
             src="/images/minion.webp"
             alt="Minion"
@@ -31,9 +33,11 @@ const Home = () => {
               management, and the React ecosystem.
             </p>
             <div className="flex justify-center mt-6">
-              <button className="bg-[#569ada] text-white text-xs lg:text-xl xl:text-2xl px-3 xl:px-6 py-1 xl:py-4 rounded-md hover:bg-[#1c4f88]">
-                Contact Me
-              </button>
+              <Link href="/contact">
+                <button className="bg-[#569ada] text-white text-xs lg:text-xl xl:text-2xl px-3 xl:px-6 py-1 xl:py-4 rounded-md hover:bg-[#1c4f88]">
+                  Contact Me
+                </button>
+              </Link>
             </div>
           </div>
         </div>
