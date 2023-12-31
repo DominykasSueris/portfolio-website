@@ -5,21 +5,21 @@ import ProjectsCard from "../componets/ProjectsCard";
 const projectsDataTest = [
   {
     id: 1,
-    title: "React",
-    description: "react",
-    background: "black",
+    title: "Colors app",
+    background: "#a240b5",
+    link: "https://github.com/DominykasSueris/colors_app",
   },
   {
     id: 2,
-    title: "Node",
-    description: "node",
-    background: "red",
+    title: "Infinite Scroll",
+    background: "#91bde8",
+    link: "https://github.com/DominykasSueris/infinite_scroll",
   },
   {
     id: 3,
-    title: "Type-Script",
-    description: "Type",
-    background: "blue",
+    title: "Party list",
+    background: "#b5b140",
+    link: "https://github.com/DominykasSueris/party_list",
   },
 ];
 
@@ -27,16 +27,18 @@ const Projects = () => {
   return (
     <>
       <Navbar />
-      <div>
-        <h1> My Projects</h1>
-        <div>
+      <h1 className="flex justify-center lg:text-4xl text-base lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:top-1/4 my-6">
+        My Projects
+      </h1>
+      <div className="flex h-full lg:items-center justify-center lg:mt-0 mt-12">
+        <div className="flex lg:flex-row flex-col">
           {projectsDataTest.map((project) => (
             <ProjectsCard
               key={project.id}
               id={project.id}
               title={project.title}
-              description={project.description}
               background={project.background}
+              link={project.link}
             />
           ))}
         </div>
