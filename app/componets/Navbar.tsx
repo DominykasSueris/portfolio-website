@@ -41,27 +41,27 @@ const Navbar = () => {
           </a>
         </div>
         <ul className="flex flex-row list-none">
-          <li className="mx-2 lg:mx-3 text-base lg:text-2xl text-xs">
+          <li className="mx-2 lg:mx-3  md:text-lg lg:text-2xl text-xs">
             <Link className="nav-link" aria-current="page" href="/">
               Home
             </Link>
           </li>
-          <li className="mx-2 lg:mx-3 text-base lg:text-2xl text-xs">
+          <li className="mx-2 lg:mx-3  md:text-lg lg:text-2xl text-xs">
             <Link className="nav-link" href="/about">
               About
             </Link>
           </li>
-          <li className="mx-2 lg:mx-3 text-base lg:text-2xl text-xs">
+          <li className="mx-2 lg:mx-3  md:text-lg lg:text-2xl text-xs">
             <Link className="nav-link" href="/skills">
               Skills
             </Link>
           </li>
-          <li className="mx-2 lg:mx-3 text-base lg:text-2xl text-xs">
+          <li className="mx-2 lg:mx-3  md:text-lg lg:text-2xl text-xs">
             <Link className="nav-link" aria-current="page" href="/projects">
               Projects
             </Link>
           </li>
-          <li className="mx-2 lg:mx-3 text-base lg:text-2xl text-xs">
+          <li className="mx-2 lg:mx-3 md:text-lg lg:text-2xl text-xs">
             <Link className="nav-link" href="/contact">
               Contact
             </Link>
