@@ -18,9 +18,11 @@ const About = () => {
             not hesitate to reach out.
           </p>
           <div className="flex justify-center mt-4">
-            <button className="bg-blue-500 text-xs lg:text-xl text-white px-4 py-2 rounded-md hover:bg-blue-600">
-              Download CV
-            </button>
+            <a href="/cv/cv_dominykas_sueris.pdf">
+              <button className="bg-blue-500 text-xs lg:text-xl text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                Download CV
+              </button>
+            </a>
           </div>
         </div>
       </div>
