@@ -6,10 +6,10 @@ const About = () => {
       <Navbar />
       <div className="bg-[#e8e9f7] text-xl overflow-hidden">
         <div className="h-dvh flex flex-col items-center justify-center mx-[33%]">
-          <h1 className="lg:text-6xl text-green-500 flex justify-start w-full">
+          <h1 className="md:text-lg lg:text-4xl text-green-500 flex justify-start w-full">
             I am Dom,
           </h1>
-          <p className="text-xs sm:text-lg lg:text-xl py-3">
+          <p className="text-xs sm:text-bs md:text-base lg:text-xl py-3">
             I’m adaptable, creative, collaborative, and I bring strong
             communication and problem-solving skills from my hospitality career.
             In my personal life, I value curiosity, lifelong learning, and
@@ -19,7 +19,7 @@ const About = () => {
           </p>
           <div className="flex justify-center mt-4">
             <a href="/cv/cv_dominykas_sueris.pdf">
-              <button className="bg-blue-500 text-xs lg:text-xl text-white px-4 py-2 rounded-md hover:bg-blue-600">
+              <button className="bg-blue-500 text-xs lg:text-xl text-white px-4 py-1 md:py-2 lg:py-2 rounded-md hover:bg-blue-600">
                 Download CV
               </button>
             </a>
