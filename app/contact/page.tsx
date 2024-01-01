@@ -11,7 +11,7 @@ const Contact = () => {
       <Navbar />
       <div className="flex lg:flex-row flex-col h-dvh">
         <div className="flex-1 flex flex-col justify-center items-center h-dvh">
-          <ul className="list text-sm lg:text-2xl">
+          <ul className="list text-sm md:text-base lg:text-xl xl:text-2xl">
             <li>Name: Dominykas Sueris</li>
             <li>Address: Edgware, London</li>
             <li>Phone: +447593678428</li>
@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex-1 flex flex-col lg:justify-center items-center">
-          <div className="flex justify-center lg:w-full w-1/2 lg:h-28">
+          <div className="flex justify-center  w-1/2 lg:w-3/4 xl:w-full lg:h-28">
             <label className="w-full max-w-lg">
               <div className="label p-1">
                 <span className="label-text lg:text-2xl text-sm">
@@ -70,7 +70,7 @@ const Contact = () => {
               />
             </label>
           </div>
-          <div className="flex justify-center lg:w-full w-1/2 lg:h-28">
+          <div className="flex justify-center w-1/2 lg:w-3/4 xl:w-full lg:h-28">
             <label className="w-full max-w-lg">
               <div className="label p-1">
                 <span className="label-text lg:text-2xl text-sm">Subject</span>
@@ -83,7 +83,7 @@ const Contact = () => {
               />
             </label>
           </div>
-          <div className="flex justify-center lg:w-full w-1/2 lg:h-40 h-20">
+          <div className="flex justify-center w-1/2 lg:w-3/4 xl:w-full  lg:h-40 h-20">
             <label className="w-full max-w-lg lg:h-40 h-20">
               <div className="label p-1">
                 <span className="label-text lg:text-2xl text-sm">Message</span>
