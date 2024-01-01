@@ -17,22 +17,22 @@ const Home = () => {
             className="my-[20rem] lg:my-[10rem]"
           />
         </div>
-        <div className="flex-1 m-10 flex items-center 2xl:pb-[250px]">
+        <div className="flex-1 flex items-center sm:my-0 m-10 2xl:pb-64">
           <div className="lg:pr-1 2xl:pr-[250px]">
-            <h1 className="top-h3 text-lg lg:text-3xl xl:text-6xl text-green-500 pt-10 lg:pt-[200px] xl:pt-10">
-              Hi There
+            <h1 className="text-lg lg:text-3xl xl:text-6xl text-green-500 sm:pt-0 lg:pt-48 xl:pt-10 my-2">
+              Hi There,
             </h1>
-            <h1 className="my-3 sm:text-lg lg:text-3xl xl:text-6xl font-bold">
+            <h1 className="lg:my-6 sm:my-1 sm:text-lg lg:text-3xl xl:text-6xl font-bold my-2">
               I AM WEB DEVELOPER
             </h1>
-            <p className="text-xs sm:text-lg lg:text-xl xl:text-2xl mt-6">
+            <p className="text-xs sm:text-lg lg:text-xl xl:text-2xl lg:mt-6 sm:mt-1">
               Self-taught React Developer: I have taken the initiative to learn
               React and its related technologies independently. Through my
               self-study, I have gained a strong understanding of React
               fundamentals, including component-based development, state
               management, and the React ecosystem.
             </p>
-            <div className="flex justify-center mt-6">
+            <div className="flex justify-center mt-3 sm:mt-1 lg:mt-6">
               <Link href="/contact">
                 <button className="bg-[#569ada] text-white text-xs lg:text-xl xl:text-2xl px-3 xl:px-6 py-1 xl:py-4 rounded-md hover:bg-[#1c4f88]">
                   Contact Me
