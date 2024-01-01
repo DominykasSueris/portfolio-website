@@ -6,19 +6,19 @@ const projectsDataTest = [
   {
     id: 1,
     title: "Colors app",
-    background: "#a240b5",
+    image: "/images/Color_app.jpg",
     link: "https://github.com/DominykasSueris/colors_app",
   },
   {
     id: 2,
     title: "Infinite Scroll",
-    background: "#91bde8",
+    image: "/images/Infinity_scroll.jpg",
     link: "https://github.com/DominykasSueris/infinite_scroll",
   },
   {
     id: 3,
     title: "Party list",
-    background: "#b5b140",
+    image: "/images/Party_list.jpg",
     link: "https://github.com/DominykasSueris/party_list",
   },
 ];
@@ -37,7 +37,7 @@ const Projects = () => {
               key={project.id}
               id={project.id}
               title={project.title}
-              background={project.background}
+              image={project.image}
               link={project.link}
             />
           ))}

@@ -4,24 +4,24 @@ import React from "react";
 interface ProjectsCardProps {
   id: number;
   title: string;
-  background: string;
+  image: string;
   link: string;
 }
 
-const ProjectsCard = ({ id, title, background, link }: ProjectsCardProps) => {
+const ProjectsCard = ({ id, title, image, link }: ProjectsCardProps) => {
   return (
     <div className="group mx-12 relative">
       <div
         className="xl:h-52 lg:48 md:h-60 h-32 xl:w-80 lg:w-60 w-52 my-2"
-        style={{ background: `${background}` }}
+        style={{ background: `url(${image})`, backgroundSize: "cover" }}
       ></div>
-      <div className="flex flex-col justify-center text-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="flex flex-col justify-center text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <h5 className="flex justify-center hidden group-hover:block lg:text-base text-sm">
           {title}
         </h5>
         <Link href={link}>
           <svg
-            className="flex justify-center lg:h-12 h-6 w-full text-black hidden group-hover:block"
+            className="flex justify-center lg:h-12 h-6 w-full text-white hidden group-hover:block"
             width="24"
             height="24"
             viewBox="0 0 24 24"
