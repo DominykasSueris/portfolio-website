@@ -2,6 +2,10 @@ import React from "react";
 import Navbar from "../componets/Navbar";
 import ProjectsCard from "../componets/ProjectsCard";
 
+export const metadata = {
+  title: "Projects",
+};
+
 const projectsDataTest = [
   {
     id: 1,

@@ -1,8 +1,7 @@
-"use client";
 import Navbar from "../componets/Navbar";
 
-const handleSubmit = () => {
-  console.log("clicked");
+export const metadata = {
+  title: "Projects",
 };
 
 const Contact = () => {
@@ -99,7 +98,6 @@ const Contact = () => {
             <button
               className="bg-[#569ada] text-white text-xs lg:text-lg lg:p-1 py-1 rounded-md hover:bg-[#1c4f88] lg:w-60 w-40"
               type="submit"
-              onClick={handleSubmit}
             >
               Send message
             </button>

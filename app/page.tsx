@@ -3,6 +3,10 @@ import Link from "next/link";
 import React from "react";
 import Navbar from "./componets/Navbar";
 
+export const metadata = {
+  title: "Dominykas Sueris website",
+};
+
 const Home = () => {
   return (
     <>
