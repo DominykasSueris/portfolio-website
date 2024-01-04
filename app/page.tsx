@@ -30,8 +30,8 @@ const Home = () => {
               I AM WEB A DEVELOPER
             </h1>
             <p className="text-xs sm:text-lg lg:text-xl xl:text-2xl lg:mt-6 sm:mt-1">
-              Passionate React Developer: I've immersed myself in the world of
-              React, navigating its intricacies independently. Proficient in
+              Passionate React Developer: I&apos;ve immersed myself in the world
+              of React, navigating its intricacies independently. Proficient in
               component-based development, adept at state management, and
               well-versed in the React ecosystem, I bring a dedicated and
               enthusiastic approach to web development.
