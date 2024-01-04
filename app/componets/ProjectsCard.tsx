@@ -12,7 +12,7 @@ const ProjectsCard = ({ id, title, image, link }: ProjectsCardProps) => {
   return (
     <div className="group mx-12 relative">
       <div
-        className="xl:h-52 lg:48 md:h-60 h-32 xl:w-80 lg:w-60 w-52 my-2"
+        className="xl:h-52 md:h-60 h-32 xl:w-80 lg:w-60 w-52 my-2"
         style={{ background: `url(${image})`, backgroundSize: "cover" }}
       ></div>
       <div className="flex flex-col justify-center text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
