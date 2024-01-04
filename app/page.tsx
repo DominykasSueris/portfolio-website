@@ -27,14 +27,15 @@ const Home = () => {
               Hi There,
             </h1>
             <h1 className="lg:my-6 sm:my-1 sm:text-lg lg:text-3xl xl:text-4xl font-bold my-2">
-              I AM WEB A DEVELOPER
+              I AM A WEB DEVELOPER
             </h1>
             <p className="text-xs sm:text-lg lg:text-xl xl:text-2xl lg:mt-6 sm:mt-1">
               Passionate React Developer: I&apos;ve immersed myself in the world
-              of React, navigating its intricacies independently. Proficient in
-              component-based development, adept at state management, and
-              well-versed in the React ecosystem, I bring a dedicated and
-              enthusiastic approach to web development.
+              of React, navigating its intricacies independently.
+              <br />
+              Proficient in component-based development, adept at state
+              management, and well-versed in the React ecosystem, I bring a
+              dedicated and enthusiastic approach to web development.
             </p>
             <div className="flex justify-center mt-3 sm:mt-1 lg:mt-6">
               <Link href="/contact">
