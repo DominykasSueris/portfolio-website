@@ -26,15 +26,15 @@ const Home = () => {
             <h1 className="text-lg lg:text-3xl xl:text-6xl text-green-500 sm:pt-0 lg:pt-48 xl:pt-10 my-2">
               Hi There,
             </h1>
-            <h1 className="lg:my-6 sm:my-1 sm:text-lg lg:text-3xl xl:text-6xl font-bold my-2">
-              I AM WEB DEVELOPER
+            <h1 className="lg:my-6 sm:my-1 sm:text-lg lg:text-3xl xl:text-4xl font-bold my-2">
+              I AM WEB A DEVELOPER
             </h1>
             <p className="text-xs sm:text-lg lg:text-xl xl:text-2xl lg:mt-6 sm:mt-1">
-              Self-taught React Developer: I have taken the initiative to learn
-              React and its related technologies independently. Through my
-              self-study, I have gained a strong understanding of React
-              fundamentals, including component-based development, state
-              management, and the React ecosystem.
+              Passionate React Developer: I've immersed myself in the world of
+              React, navigating its intricacies independently. Proficient in
+              component-based development, adept at state management, and
+              well-versed in the React ecosystem, I bring a dedicated and
+              enthusiastic approach to web development.
             </p>
             <div className="flex justify-center mt-3 sm:mt-1 lg:mt-6">
               <Link href="/contact">
