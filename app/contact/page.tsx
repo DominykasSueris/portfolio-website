@@ -53,7 +53,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="flex-1 flex flex-col lg:justify-center items-center">
+        <div className="flex-1 hidden flex-col lg:justify-center items-center">
           <div className="flex justify-center  w-1/2 lg:w-3/4 xl:w-full lg:h-28">
             <label className="w-full max-w-lg">
               <div className="label p-1">
